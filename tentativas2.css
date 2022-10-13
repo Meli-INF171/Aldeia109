@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 100;
+  padding: 100;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+  position:relative;
+
+}
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgb(2, 2, 56);
+
+  
+}
+footer .contents{
+  max-width: 1350px;
+  margin: auto;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .contents .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .contents .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .contents .topicc{
+    font-size: 17px;
+    
+    color: #fff;
+    margin-bottom: 16px;
+  
+  }
+footer .contents p{
+  text-align: justify;
+}
+footer .contents .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .contents .lower i{
+  padding-right: 16px;
+}
+
+footer .content .middle a{
+  line-height: 200px;
+}
+footer .contents .right input[type="text"]{
+  height: 100px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: rgb(19, 28, 8);
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .contents .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.contents .right input[type="submit"]:hover{
+  background: none;
+  color:  #eb2f06;
+}
+footer .contents .media-icons a{
+  font-size: 30px;
+  height:50px;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+
+  margin: 50px 10px 0 0;
+  transition: all 0.3s ease;
+}
+
+footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: #d9d9d9;
+  padding: 0 100px 5px 0;
+  
+}
+
+.logo{
+    width: 100%;
+    text-align: right;
+ 
+    padding: 50px;
+  }
+
+footer .bottom a{
+  color: hsl(54, 100%, 50%);
+  text-align: right;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #ffe401;
+}
+
+@media (max-width:10000px) {
+  footer .contents .middle{
+    padding-left: 50px;
+    
+  }
+}
+@media (max-width:1000px){
+  footer .contents .box{
+    width: 50%;
+  }
+  .contents .right{
+    margin-top: 100px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: absolute;
+  }
+  footer .contents .box{
+    width: 100%;
+    margin-top: 400px;
+  }
+  footer .contents .middle{
+    padding-left: 0;
+  }
+}
